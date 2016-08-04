@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="@string/app_useinfo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/text_big" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/dialog_line" />
+
+    <TextView
+        android:id="@+id/cardid"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/text_middle" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:gravity="left|center"
+        android:text="钱包信息"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/text_middle" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:layout_weight="2.55"
+        android:divider="@drawable/list_line"
+        android:dividerHeight="1dip" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnNfc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_nfc"
+            android:textColor="@color/text_button"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnhelp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/btn_margin"
+            android:layout_weight="1"
+            android:text="@string/bnt_help"
+            android:textColor="@color/text_button"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/btn_margin"
+            android:layout_weight="1"
+            android:text="@string/btn_exit"
+            android:textColor="@color/text_button"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="Copyright © 2015 All rights reserved."
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/dialog_line" />
+
+</LinearLayout>

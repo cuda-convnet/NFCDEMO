@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">一卡通充值APP</string>
+    <string name="bnt_help">帮助</string>
+    <string name="btn_nfc">设置</string>
+    <string name="btn_exit">退出</string>
+    <string name="btn_info">详情</string>
+    <string name="btn_buy">购买</string>
+    <string name="main_info">卡片信息</string>
+    <string name="app_title">一卡通充值系统</string>
+    <string name="app_useinfo">用户卡充值</string>
+
+</resources>
